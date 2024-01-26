@@ -14,7 +14,7 @@ import {
   FaShoppingCart,
   FaUsers,
 } from "react-icons/fa";
-import { HiOutlineSparkles, HiSparkles } from "react-icons/hi2";
+// import { HiOutlineSparkles, HiSparkles } from "react-icons/hi2";
 
 import RequireRole from "@components/auth/RequireRole";
 import { Meta } from "@components/templates/Meta";

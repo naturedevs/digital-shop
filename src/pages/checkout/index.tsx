@@ -45,7 +45,6 @@ const Checkout = () => {
   const session = useSession();
   const [submitting, setsubmitting] = React.useState<boolean>(false);
   const router = useRouter();
-  const [useBal, setUseBal] = React.useState<boolean>(false);
   const [promo, setPromo] = React.useState<string>("");
   const [isEmpty, setIsEmpty] = React.useState<boolean>(false);
   const [userBalance, setUserBalance] = React.useState(0);
