@@ -95,7 +95,7 @@ export default async function handler(
     });
     await OrderModel.updateOne({
       _id: id
-  }, {status: "completed"",warrantyStartTimestamp:new Date()})
+  }, {status: "completed",warrantyStartTimestamp:new Date()})
      orderData.save()
     // const newOrder: OrderInterface = {
     //   ...data.toObject(),
